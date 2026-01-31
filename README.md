@@ -59,7 +59,6 @@ vagrant init ubuntu/jammy64
 vagrant up
 
 ### Error Observed
-```bash
 The box 'ubuntu/jammy64' could not be found or does not support the provider 'virtualbox'.
 
 This box requires the following providers:
