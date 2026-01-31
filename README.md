@@ -28,37 +28,38 @@ by deploying an Nginx web server and observing resource utilization.
 
 ### Step 1: Install Homebrew
 
-```bash
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
  Containers both have their place in modern infrastructure. However, containers are preferred in cloud-native and DevOps environments due to their speed, efficiency, and portability.
 
 ### Step 2: Install VirtualBox
-```bash
+
 brew install --cask virtualbox
 
 ### Step 3: Install Vagrant
-```bash
+
 brew install --cask vagrant
 
 ### Step 4: Verify Installation
-```bash
+
 vagrant --version
 virtualbox --help
 
 ### Step 5: Create Project Directory
-```bash
+
 mkdir vm-lab
 cd vm-lab
 
 ### Step 6: Initialize Vagrant with Ubuntu Box
-```bash
+
 vagrant init ubuntu/jammy64
 
 ### Step 7: Start the Virtual Machine
-```bash
+
 vagrant up
 
 ### Error Observed
+
 The box 'ubuntu/jammy64' could not be found or does not support the provider 'virtualbox'.
 
 This box requires the following providers:
